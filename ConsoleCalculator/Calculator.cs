@@ -19,7 +19,6 @@ namespace ConsoleCalculator
         /// <returns></returns>
         public string SendKeyPress(char key)
         {
-            calStr.Append("").ToString();
             // Add your implementation here.
             if (IsListOfKeys(key))
             {
